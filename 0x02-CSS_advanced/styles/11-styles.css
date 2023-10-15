@@ -22,6 +22,8 @@ html {
   --line-height-small: 1.2;
   --line-height-base: 1.5;
   --line-height-big: 1.8;
+  --section-header-align: center;
+  --section-tagline-transform: uppercase;
 }
 
 body {
@@ -30,11 +32,6 @@ body {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
-}
-
-section {
-  --section-header-align: center;
-  --section-tagline-transform: uppercase;
 }
 
 h1, h2, h3,
