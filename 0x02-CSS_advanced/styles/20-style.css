@@ -190,7 +190,7 @@ ul.row {
   padding: var(--footer-padding);
 }
 
-.row + .row {
+.row::after {
   content: "";
   display: table;
   clear: both;
