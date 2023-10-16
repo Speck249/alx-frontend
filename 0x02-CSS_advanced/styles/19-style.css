@@ -156,10 +156,6 @@ ul.row {
   list-style: none;
 }
 
-.footer ul {
-  text-align: right;
-}
-
 .col-1-3 {
   width: 33.33%;
   float: left;
@@ -176,6 +172,10 @@ ul.row {
   margin: none;
   font-size: var(--font-size-small);
   color: var(--text-color);
+}
+
+.footer ul {
+  text-align: right;
 }
 
 .visually-hidden {
