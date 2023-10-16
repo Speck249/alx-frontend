@@ -51,12 +51,12 @@ html {
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
   --button-border: 0.2rem solid var(--color-primary);
-  --button-color: color-black;
+  --button-color: var(--color-black);
   --button-text-decoration: none;
-  --button-font-size: font-size-large;
-  --button-hover-color: color-white;
+  --button-font-size: var(--font-size-large);
+  --button-hover-color: var(--color-white);
   --button-hover-text-decoration: none;
-  --button-hover-background: color-primary;
+  --button-hover-background: var(--color-primary);
 }
 
 [data-section-theme="dark"] {
@@ -141,6 +141,10 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .section {
   padding: var(--section-padding);
 }
@@ -148,10 +152,6 @@ a:active {
 .section-header {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
-}
-
-.section-body {
-  padding: var(--section-body-padding);
 }
 
 .section-title {
@@ -168,6 +168,10 @@ a:active {
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
   margin: var(--section-tagline-margin);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
 }
 
 .section-footer {
@@ -250,8 +254,4 @@ ul.row {
   content: "";
   display: table;
   clear: both;
-}
-
-.visually-hidden {
-  display: none;
 }
