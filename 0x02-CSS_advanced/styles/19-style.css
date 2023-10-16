@@ -144,6 +144,12 @@ a:active {
   margin: var(--section-tagline-margin);
 }
 
+.container {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 ul.row {
   margin: 0;
   padding: 0;
@@ -163,19 +169,13 @@ ul.row {
 }
 
 .footer-copyright {
-  margin: none;
+  margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
 
 .footer ul {
   text-align: right;
-}
-
-.container {
-  width: 960px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .visually-hidden {
