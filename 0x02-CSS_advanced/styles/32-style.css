@@ -296,10 +296,6 @@ ul.row {
   overflow: hidden;
 }
 
-.card-work:hover .card-outer {
-  transform: scale(0.95);
-}
-
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
@@ -363,9 +359,13 @@ ul.row {
 
 .card-work:hover .card-image {
   transform: scale(1.2);
-  transition: var(–-transition-duration) var(--transition-cubic-bezier);
+  transition:  var(–-transition-duration) var(--transition-cubic-bezier);
 }
- 
+
+.card-work:hover .card-outer {
+  transform: scale(0.95);
+}
+
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
